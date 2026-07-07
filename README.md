@@ -154,7 +154,7 @@ CLIENT_URL=http://localhost:5173
 ## client/.env
 
 ```env
-VITE_API_BASE_URL=http://localhost:5000/api
+VITE_API_URL=http://localhost:5000
 ```
 
 > Never commit your `.env` file.
