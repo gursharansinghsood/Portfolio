@@ -100,7 +100,7 @@ Novem Control (2024)
 
     case "resume":
       // Resume PDF ka path de dena
-      window.open("/resume.pdf", "_blank");
+      window.open("./client/src/assets/resume.pdf", "_blank");
       return "Opening resume...";
 
     default:
