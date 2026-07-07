@@ -144,9 +144,11 @@ http://localhost:5173
 ```env
 PORT=5000
 
-EMAIL_SERVICE=Gmail
+# SendMail
 EMAIL_USER=your-email@gmail.com
 EMAIL_PASS=your-app-password
+
+CLIENT_URL=http://localhost:5173
 ```
 
 ## client/.env
