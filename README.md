@@ -1,46 +1,61 @@
+<div align="center">
+
 # 🚀 Personal Portfolio
 
-A modern, responsive, and interactive personal portfolio built with **React (Vite)** for the frontend and **Node.js + Express** for the backend. The application features a desktop-inspired interface, smooth animations, project showcase, terminal widget, and a fully functional contact form powered by an Express API.
+A modern, responsive, desktop-inspired portfolio built using **React (Vite)** and **Node.js + Express**.
+
+<p align="center">
+<img src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white"/>
+<img src="https://img.shields.io/badge/TailwindCSS-4-38BDF8?logo=tailwindcss&logoColor=white"/>
+<img src="https://img.shields.io/badge/Node.js-Express-339933?logo=node.js&logoColor=white"/>
+<img src="https://img.shields.io/badge/License-MIT-success"/>
+</p>
+
+<p align="center">
+
+<a href="https://portfolio-your-link.vercel.app">🌐 Live Demo</a> •
+<a href="https://github.com/gursharansinghsood/Portfolio">📂 Repository</a>
+
+</p>
+
+</div>
 
 ---
 
-## ✨ Features
+# 📸 Preview
 
-- 🎨 Modern desktop-inspired UI
-- 🌙 Light & Dark Theme
-- 📱 Fully Responsive Design
-- ⚡ Smooth Page Transitions
-- 💻 Interactive Terminal Widget
-- 📂 Project Showcase
-- 📧 Contact Form with Email Integration
-- 🚀 Fast Performance with Vite
-- 🧩 Reusable React Components
+<p align="center">
+<img src="assets/2.png" width="100%">
+</p>
+
+---
+
+# ✨ Features
+
+- 🎨 Desktop-inspired UI
+- 🌙 Dark / Light Theme
+- ⚡ Smooth Animations
+- 📱 Responsive Design
+- 💻 Interactive Terminal
+- 📂 Projects Showcase
+- 🖼 Image Gallery
+- 👤 About Page
+- 📧 Contact Form
+- ⚙️ Settings Panel
+- 🚀 Optimized Performance
 
 ---
 
 # 🛠 Tech Stack
 
-### Frontend
-
-- React
-- Vite
-- Tailwind CSS
-- Framer Motion
-- React Router
-- React Icons
-
-### Backend
-
-- Node.js
-- Express.js
-- Nodemailer
-
-### Tools
-
-- Git
-- GitHub
-- npm
-- ESLint
+| Frontend | Backend | Tools |
+|----------|----------|-------|
+| React | Node.js | Git |
+| Vite | Express | GitHub |
+| Tailwind CSS | Nodemailer | npm |
+| Framer Motion | REST API | ESLint |
+| React Router | CORS | VS Code |
 
 ---
 
@@ -50,11 +65,14 @@ A modern, responsive, and interactive personal portfolio built with **React (Vit
 Portfolio
 │
 ├── client
+│   ├── public
 │   ├── src
 │   │   ├── assets
 │   │   ├── components
 │   │   ├── context
+│   │   ├── data
 │   │   ├── pages
+│   │   ├── routes
 │   │   ├── services
 │   │   └── App.jsx
 │   └── package.json
@@ -72,14 +90,7 @@ Portfolio
 
 ---
 
-# ⚙️ Getting Started
-
-## Prerequisites
-
-- Node.js 18+
-- npm
-
----
+# ⚙️ Installation
 
 ## Clone Repository
 
@@ -91,35 +102,31 @@ cd Portfolio
 
 ---
 
-# Backend Setup
+## Backend
 
 ```bash
 cd server
 
 npm install
+
+npm start
 ```
 
-Create `.env`
+### server/.env
 
 ```env
 PORT=5000
 
-EMAIL_SERVICE=Gmail
 EMAIL_USER=your-email@gmail.com
+
 EMAIL_PASS=your-app-password
-```
 
-Run Server
-
-```bash
-npm start
+CLIENT_URL=http://localhost:5173
 ```
 
 ---
 
-# Frontend Setup
-
-Open another terminal
+## Frontend
 
 ```bash
 cd client
@@ -129,35 +136,33 @@ npm install
 npm run dev
 ```
 
-Visit
+Runs at
 
-```text
+```
 http://localhost:5173
 ```
 
 ---
 
-# 🌐 Environment Variables
+# 🌍 Environment Variables
 
-## server/.env
+## Backend
 
 ```env
 PORT=5000
 
-# SendMail
 EMAIL_USER=your-email@gmail.com
+
 EMAIL_PASS=your-app-password
 
 CLIENT_URL=http://localhost:5173
 ```
 
-## client/.env
+## Frontend
 
 ```env
 VITE_API_URL=http://localhost:5000
 ```
-
-> Never commit your `.env` file.
 
 ---
 
@@ -169,9 +174,9 @@ cd client
 npm run build
 ```
 
-Production build
+Output
 
-```text
+```
 client/dist
 ```
 
@@ -179,75 +184,90 @@ client/dist
 
 # 📸 Screenshots
 
-## 🔐 Lock Screen
+<table>
+<tr>
+<td><img src="assets/1.png"></td>
+<td><img src="assets/2.png"></td>
+</tr>
 
-![Lock](assets/1.png)
+<tr>
+<td align="center"><b>Lock Screen</b></td>
+<td align="center"><b>Home</b></td>
+</tr>
+
+<tr>
+<td><img src="assets/3.png"></td>
+<td><img src="assets/4.png"></td>
+</tr>
+
+<tr>
+<td align="center"><b>Skills</b></td>
+<td align="center"><b>Projects</b></td>
+</tr>
+
+<tr>
+<td><img src="assets/5.png"></td>
+<td><img src="assets/6.png"></td>
+</tr>
+
+<tr>
+<td align="center"><b>Gallery</b></td>
+<td align="center"><b>About</b></td>
+</tr>
+
+<tr>
+<td><img src="assets/7.png"></td>
+<td><img src="assets/8.png"></td>
+</tr>
+
+<tr>
+<td align="center"><b>Contact</b></td>
+<td align="center"><b>Settings</b></td>
+</tr>
+
+<tr>
+<td colspan="2">
+<img src="assets/9.png">
+</td>
+</tr>
+
+<tr>
+<td colspan="2" align="center"><b>Terminal</b></td>
+</tr>
+
+</table>
 
 ---
 
-## 🏠 Home
+# 🚀 Deployment
 
-![Home](assets/2.png)
+### Frontend
 
----
+- Vercel
+- Netlify
+- Cloudflare Pages
 
-## 💻 Skills
+### Backend
 
-![Skills](assets/3.png)
-
----
-
-## 📂 Projects
-
-![Projects](assets/4.png)
-
----
-
-## 🖼 Gallery
-
-![Gallery](assets/5.png)
-
----
-
-## 👤 About
-
-![About](assets/6.png)
-
----
-
-## 📧 Contact
-
-![Contact](assets/7.png)
-
----
-
-## ⚙️ Settings
-
-![Settings](assets/8.png)
-
----
-
-## 💻 Terminal
-
-![Terminal](assets/9.png)
+- Render
+- Railway
 
 ---
 
 # 🤝 Contributing
 
-Contributions are welcome.
+1. Fork the repository
 
-1. Fork this repository
-2. Create your feature branch
+2. Create a new branch
 
 ```bash
 git checkout -b feature-name
 ```
 
-3. Commit your changes
+3. Commit changes
 
 ```bash
-git commit -m "Add new feature"
+git commit -m "Add feature"
 ```
 
 4. Push
@@ -256,18 +276,20 @@ git commit -m "Add new feature"
 git push origin feature-name
 ```
 
-5. Create a Pull Request
+5. Open Pull Request
 
 ---
 
 # 📄 License
 
-This project is licensed under the **MIT License**.
+Licensed under the **MIT License**.
 
 ---
 
-# ⭐ Support
+<div align="center">
 
-If you like this project, don't forget to leave a ⭐ on GitHub.
+## ⭐ Star this repository if you found it helpful.
 
 Made with ❤️ by **Gursharan Singh**
+
+</div>
