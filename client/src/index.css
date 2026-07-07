@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap");
 
 
 @theme {
@@ -14,7 +13,7 @@
 
   --color-success: #16a34a;
   --color-danger: #dc2626;
-   --font-terminal: "JetBrains Mono", monospace;
+
 }
 
 /* =========================
@@ -33,7 +32,7 @@
 
   --color-success: #16a34a;
   --color-danger: #dc2626;
-   --font-terminal: "JetBrains Mono", monospace;
+ 
 }
 
 /* =========================
@@ -52,7 +51,7 @@
 
   --color-success: #22c55e;
   --color-danger: #f87171;
-   --font-terminal: "JetBrains Mono", monospace;
+
 }
 
 /* =========================

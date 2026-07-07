@@ -18,7 +18,7 @@ const TerminalPage = () => {
   return (
     <Fade className="h-screen flex flex-col">
       <Titlebar name={"Terminal"} />
-      <div className="flex-1 overflow-y-auto p-5 font-terminal">
+      <div className="flex-1 overflow-y-auto p-5 font-mono">
         <HistorySystem history={history} />
         <InputSystem history={history} setHistory={setHistory} />
         <div ref={bottomRef} />
