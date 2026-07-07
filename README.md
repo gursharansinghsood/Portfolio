@@ -6,19 +6,19 @@ A modern, responsive, and interactive personal portfolio built with **React (Vit
 
 ## ✨ Features
 
-- 🎨 Modern desktop-inspired user interface
-- 🌙 Light & Dark theme support
-- 📱 Fully responsive across devices
-- ⚡ Smooth page transitions and animations
-- 💻 Interactive terminal widget
-- 📂 Project showcase with detailed pages
-- 📧 Contact form with email integration
-- 🧩 Reusable React components
-- 🚀 Optimized performance with Vite
+- 🎨 Modern desktop-inspired UI
+- 🌙 Light & Dark Theme
+- 📱 Fully Responsive Design
+- ⚡ Smooth Page Transitions
+- 💻 Interactive Terminal Widget
+- 📂 Project Showcase
+- 📧 Contact Form with Email Integration
+- 🚀 Fast Performance with Vite
+- 🧩 Reusable React Components
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠 Tech Stack
 
 ### Frontend
 
@@ -37,38 +37,35 @@ A modern, responsive, and interactive personal portfolio built with **React (Vit
 
 ### Tools
 
+- Git
+- GitHub
 - npm
 - ESLint
-- Git & GitHub
 
 ---
 
-## 📁 Project Structure
+# 📁 Project Structure
 
 ```text
-Portfolio/
+Portfolio
 │
-├── client/
-│   ├── src/
-│   │   ├── assets/
-│   │   ├── components/
-│   │   ├── context/
-│   │   ├── data/
-│   │   ├── pages/
-│   │   ├── routes/
+├── client
+│   ├── src
+│   │   ├── assets
+│   │   ├── components
+│   │   ├── context
+│   │   ├── pages
+│   │   ├── services
 │   │   └── App.jsx
 │   └── package.json
 │
-├── server/
-│   ├── src/
-│   │   ├── config/
-│   │   ├── controllers/
-│   │   ├── routes/
-│   │   ├── services/
-│   │   └── app.js
-│   └── package.json
+├── server
+│   ├── src
+│   ├── server.js
+│   ├── package.json
+│   └── .env
 │
-├── assets/
+├── assets
 ├── README.md
 └── .gitignore
 ```
@@ -84,17 +81,17 @@ Portfolio/
 
 ---
 
-## 1️⃣ Clone Repository
+## Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/gursharansinghsood/Portfolio.git
 
-cd portfolio
+cd Portfolio
 ```
 
 ---
 
-## 2️⃣ Backend Setup
+# Backend Setup
 
 ```bash
 cd server
@@ -102,7 +99,7 @@ cd server
 npm install
 ```
 
-Create a **.env** file inside the **server** directory.
+Create `.env`
 
 ```env
 PORT=5000
@@ -112,7 +109,7 @@ EMAIL_USER=your-email@gmail.com
 EMAIL_PASS=your-app-password
 ```
 
-Start the backend server.
+Run Server
 
 ```bash
 npm start
@@ -120,9 +117,9 @@ npm start
 
 ---
 
-## 3️⃣ Frontend Setup
+# Frontend Setup
 
-Open a new terminal.
+Open another terminal
 
 ```bash
 cd client
@@ -132,7 +129,7 @@ npm install
 npm run dev
 ```
 
-The application will be available at:
+Visit
 
 ```text
 http://localhost:5173
@@ -142,7 +139,7 @@ http://localhost:5173
 
 # 🌐 Environment Variables
 
-### Backend (`server/.env`)
+## server/.env
 
 ```env
 PORT=5000
@@ -152,19 +149,17 @@ EMAIL_USER=your-email@gmail.com
 EMAIL_PASS=your-app-password
 ```
 
-### Frontend (`client/.env`)
+## client/.env
 
 ```env
 VITE_API_BASE_URL=http://localhost:5000/api
 ```
 
-> **Never commit your `.env` files or sensitive credentials to GitHub.**
+> Never commit your `.env` file.
 
 ---
 
-# 🚀 Production Build
-
-Generate the frontend build.
+# 🚀 Build
 
 ```bash
 cd client
@@ -172,74 +167,67 @@ cd client
 npm run build
 ```
 
-The production files will be generated inside:
+Production build
 
 ```text
 client/dist
 ```
 
-Deploy the frontend to:
-
-- Vercel
-- Netlify
-- GitHub Pages
-- Cloudflare Pages
-
-Deploy the backend to:
-
-- Render
-- Railway
-- Heroku
-- VPS
-- DigitalOcean
-
 ---
 
 # 📸 Screenshots
 
-Place your screenshots inside the **assets/** directory.
+## 🔐 Lock Screen
 
-```text
-assets/
-├── 1.png
-├── 2.png
-├── 3.png
-├── 4.png
-├── 5.png
-├── 6.png
-├── 7.png
-├── 8.png
-├── 9.png
-└── 10.png
-```
-
-Example:
-
-```md
-![Lock](./assets/1.png)
-
-![Home](./assets/2.png)
-
-![Skills](./assets/3.png)
-
-![Projects](./assets/4.png)
-
-![Gallery](./assets/5.png)
-
-![About](./assets/6.png)
-
-![Contact](./assets/7.png)
-
-![Setting](./assets/8.png)
-
-![Terminal](./assets/9.png)
-```
+![Lock](assets/1.png)
 
 ---
 
-# 📬 Contact
+## 🏠 Home
 
-If you'd like to collaborate or have any questions, feel free to reach out through the contact form available on the portfolio.
+![Home](assets/2.png)
+
+---
+
+## 💻 Skills
+
+![Skills](assets/3.png)
+
+---
+
+## 📂 Projects
+
+![Projects](assets/4.png)
+
+---
+
+## 🖼 Gallery
+
+![Gallery](assets/5.png)
+
+---
+
+## 👤 About
+
+![About](assets/6.png)
+
+---
+
+## 📧 Contact
+
+![Contact](assets/7.png)
+
+---
+
+## ⚙️ Settings
+
+![Settings](assets/8.png)
+
+---
+
+## 💻 Terminal
+
+![Terminal](assets/9.png)
 
 ---
 
@@ -247,11 +235,26 @@ If you'd like to collaborate or have any questions, feel free to reach out throu
 
 Contributions are welcome.
 
-1. Fork the repository.
-2. Create a new feature branch.
-3. Commit your changes.
-4. Push the branch.
-5. Open a Pull Request.
+1. Fork this repository
+2. Create your feature branch
+
+```bash
+git checkout -b feature-name
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Add new feature"
+```
+
+4. Push
+
+```bash
+git push origin feature-name
+```
+
+5. Create a Pull Request
 
 ---
 
@@ -261,6 +264,8 @@ This project is licensed under the **MIT License**.
 
 ---
 
-## ⭐ Support
+# ⭐ Support
 
-If you found this project helpful, consider giving it a ⭐ on GitHub.
+If you like this project, don't forget to leave a ⭐ on GitHub.
+
+Made with ❤️ by **Gursharan Singh**
