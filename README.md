@@ -14,7 +14,7 @@ A modern, responsive, desktop-inspired portfolio built using **React (Vite)** an
 
 <p align="center">
 
-<a href="https://portfolio-your-link.vercel.app">🌐 Live Demo</a> •
+<a href="https://portfolio-of-prince.vercel.app/">🌐 Live Demo</a> •
 <a href="https://github.com/gursharansinghsood/Portfolio">📂 Repository</a>
 
 </p>
@@ -49,13 +49,13 @@ A modern, responsive, desktop-inspired portfolio built using **React (Vite)** an
 
 # 🛠 Tech Stack
 
-| Frontend | Backend | Tools |
-|----------|----------|-------|
-| React | Node.js | Git |
-| Vite | Express | GitHub |
-| Tailwind CSS | Nodemailer | npm |
-| Framer Motion | REST API | ESLint |
-| React Router | CORS | VS Code |
+| Frontend      | Backend    | Tools   |
+| ------------- | ---------- | ------- |
+| React         | Node.js    | Git     |
+| Vite          | Express    | GitHub  |
+| Tailwind CSS  | Nodemailer | npm     |
+| Framer Motion | REST API   | ESLint  |
+| React Router  | CORS       | VS Code |
 
 ---
 
@@ -70,7 +70,6 @@ Portfolio
 │   │   ├── assets
 │   │   ├── components
 │   │   ├── context
-│   │   ├── data
 │   │   ├── pages
 │   │   ├── routes
 │   │   ├── services
@@ -111,20 +110,6 @@ npm install
 
 npm start
 ```
-
-### server/.env
-
-```env
-PORT=5000
-
-EMAIL_USER=your-email@gmail.com
-
-EMAIL_PASS=your-app-password
-
-CLIENT_URL=http://localhost:5173
-```
-
----
 
 ## Frontend
 
