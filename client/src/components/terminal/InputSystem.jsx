@@ -8,9 +8,9 @@ const InputSystem = ({ history, setHistory }) => {
   const navigate = useNavigate();
 
   const handleEnter = () => {
-    if (input === "clear") {
+    if (input.toLowerCase().trim() === "clear") {
       return setHistory([]);
-    } else if (input === "exit") {
+    } else if (input.toLowerCase().trim() === "exit") {
       return navigate("/home", replace);
     } else {
       const newHistory = [
