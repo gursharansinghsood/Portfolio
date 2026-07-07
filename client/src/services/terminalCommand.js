@@ -6,7 +6,6 @@ Available commands:
 about      - About me
 skills     - List all skills
 projects   - List all projects
-resume     - Open resume
 contact    - Contact information
 education  - Education details
 certs      - Certifications
@@ -98,10 +97,6 @@ MERN Stack Development
 Novem Control (2024)
 `;
 
-    case "resume":
-      // Resume PDF ka path de dena
-      window.open("./client/src/assets/resume.pdf", "_blank");
-      return "Opening resume...";
 
     default:
       return `Command not found: ${command}
