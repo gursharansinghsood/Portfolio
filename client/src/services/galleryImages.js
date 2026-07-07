@@ -22,4 +22,4 @@ export const galleryImages = [
     name: "Track Hire",
     image: [ht1, ht2, ht3, ht4, ht5, ht6],
   },
-];
+]; 
